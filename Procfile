@@ -1,0 +1,1 @@
+worker: celery worker -A task -l info -B
