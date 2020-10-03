@@ -15,7 +15,7 @@ app.conf.timezone = 'Europe/Kiev'
 app.conf.beat_schedule = {
     'send_film': {
         'task': 'task.film',
-        'schedule': timedelta(hours=1)
+        'schedule': timedelta(hours=3)
     }
 }
 
