@@ -47,7 +47,7 @@ def film():
             ans[0],
             reply_markup=InlineKeyboardMarkup([
                 [InlineKeyboardButton('🎥 Смотреть онлайн!', url=ans[1])],
-                [InlineKeyboardButton('🔎 Поиск фильмов!', url='http://w.ikino.site/index.php?do=search')]
+                [InlineKeyboardButton('🔎 Поиск фильмов!', url='https://t.me/searchikino_bot')]
             ]),
         )
     Film.delete_by_id(choose)
