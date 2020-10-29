@@ -84,14 +84,12 @@ def parsing(url):
 
 🔊{data[4]}
 
-[🎬 Фильмы в Telegram](https://t.me/joinchat/AAAAAEZFN2QP3nxwqJ-7Ng)
-[👉 Все фильмы](http://w.ikino.site/filmy/) | [👉 Все сериалы](http://w.ikino.site/serialy/)'''
+[🎬 Фильмы в Telegram](https://t.me/joinchat/AAAAAEZFN2QP3nxwqJ-7Ng)'''
     else:
         text = f'''**🎬 [{data[0]} {data[1]}]({url_})**
 **🍿Жанр:** {categories(data[2])}
 
 🔊{data[4]}
 
-[🎬 Фильмы в Telegram](https://t.me/joinchat/AAAAAEZFN2QP3nxwqJ-7Ng)
-[👉 Все фильмы](http://w.ikino.site/filmy/) | [👉 Все сериалы](http://w.ikino.site/serialy/)'''
+[🎬 Фильмы в Telegram](https://t.me/joinchat/AAAAAEZFN2QP3nxwqJ-7Ng)'''
     return text, url
