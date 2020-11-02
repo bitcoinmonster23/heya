@@ -84,6 +84,8 @@ def parsing(url):
 
 🔊{data[4]}
 
+[🎡 Чат Рулетка](https://bit.ly/3mJvhpQ)
+➖➖➖➖➖➖➖➖➖
 [🎬 Фильмы в Telegram](https://t.me/joinchat/AAAAAEZFN2QP3nxwqJ-7Ng)'''
     else:
         text = f'''**🎬 [{data[0]} {data[1]}]({url_})**
@@ -91,5 +93,7 @@ def parsing(url):
 
 🔊{data[4]}
 
+[🎡 Чат Рулетка](https://bit.ly/3mJvhpQ)
+➖➖➖➖➖➖➖➖➖
 [🎬 Фильмы в Telegram](https://t.me/joinchat/AAAAAEZFN2QP3nxwqJ-7Ng)'''
     return text, url
