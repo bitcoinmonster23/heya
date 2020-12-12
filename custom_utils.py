@@ -84,16 +84,16 @@ def parsing(url):
 
 🔊{data[4]}
 
-[💰$1 за регистрацию](telegram.me/NANO_COMPANY_bot?start=324969393)
 ➖➖➖➖➖➖➖➖➖
-[🎬 Фильмы в Telegram](https://t.me/joinchat/AAAAAEZFN2QP3nxwqJ-7Ng)'''
+[🎬 Фильмы в Telegram](https://t.me/joinchat/AAAAAEZFN2QP3nxwqJ-7Ng)
+➖➖➖➖➖➖➖➖➖'''
     else:
         text = f'''**🎬 [{data[0]} {data[1]}]({url_})**
 **🍿Жанр:** {categories(data[2])}
 
 🔊{data[4]}
 
-[💰$1 за регистрацию](telegram.me/NANO_COMPANY_bot?start=324969393)
 ➖➖➖➖➖➖➖➖➖
-[🎬 Фильмы в Telegram](https://t.me/joinchat/AAAAAEZFN2QP3nxwqJ-7Ng)'''
+[🎬 Фильмы в Telegram](https://t.me/joinchat/AAAAAEZFN2QP3nxwqJ-7Ng)
+➖➖➖➖➖➖➖➖➖'''
     return text, url
